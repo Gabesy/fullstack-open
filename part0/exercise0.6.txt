@@ -1,0 +1,10 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over server:
+server receives content and timestamp of note 
+server parses the JSON document and
+dynamically adds the note without
+asking for a redirect
+end note
+
+server-->browser: new_note_spa
